@@ -1,68 +1,112 @@
-body{
-    background-color: white;
-    font-family: 'Raleway', sans-serif;
+body {
+  background-color: white;
+  font-family: "Raleway", sans-serif;
 }
 
-.container{
-    background-color: #363A47;
-    height: 400px;
-    margin-top: 50px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-left: 10px;
+.container {
+  background-color: #363a47;
+  height: 400px;
+  margin-top: 5px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 30px;
 }
-.helloSize{
-    width: 140px;
-    height: 60px;
-    height: auto;
-    background-color: #03D6A1;
-    text-align: center;
-    border-radius: 15px 50px;
-}
-
-.itsMyHome{
-    width: 300px;
-    background-color: #03D6A1;
-    text-align: center;
-    border-radius: 15px 50px;
+.helloSize {
+  width: 140px;
+  height: 60px;
+  height: auto;
+  background-color: #03d6a1;
+  text-align: center;
+  border-radius: 15px 50px;
 }
 
-.instruct{
-    width: 850px;
-    background-color: #03D6A1;
-    padding-left: 23px;
-    border-radius: 15px 50px;
-}
-.imgSize{
-    width: 500px;
-    height: 400px;
-}
-.imgPos{
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-around;
+.itsMyHome {
+  width: 300px;
+  background-color: #03d6a1;
+  text-align: center;
+  border-radius: 15px 50px;
 }
 
-.myInst{
-    width: 250px;
-    height: 30px;
-    text-align: center;
-    background-color: #03D6A1;
-    border-radius: 15px 50px;
+.instruct {
+  width: 850px;
+  background-color: #03d6a1;
+  padding-left: 23px;
+  border-radius: 15px 50px;
 }
-.instLogoSize{
-    width: 250px;
-    height: 250px;
+.imgSize {
+  width: 500px;
+  height: 400px;
+}
+.imgPos {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.myInst {
+  width: 250px;
+  height: 30px;
+  text-align: center;
+  background-color: #03d6a1;
+  border-radius: 15px 50px;
+}
+.instLogoSize {
+  width: 250px;
+  height: 250px;
 }
 .instLogo img {
-    width: 250px;
-    height: 250px;
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
-    }
-  .instLogo img:hover {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-    }
+  width: 250px;
+  height: 250px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.instLogo img:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+header {
+  display: flex;
+  background-color: #363a47;
+  border-radius: 25px;
+  height: 60px;
+  justify-content: start;
+  align-items: center;
+  padding-left: 40px;
+}
+.headDiv {
+  height: 22px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+#blinkText {
+  -webkit-animation: blink1 2s linear infinite;
+  animation: blink1 2s linear infinite;
+  color: #000000;
+}
+@-webkit-keyframes blink1 {
+  0% {
+    color: rgba(34, 34, 34, 1);
+  }
+  50% {
+    color: rgba(34, 34, 34, 0);
+  }
+  100% {
+    color: #03d6a1;
+  }
+}
+@keyframes blink1 {
+  0% {
+    color: rgb(0, 0, 0);
+  }
+  50% {
+    color: rgba(34, 34, 34, 0);
+  }
+  100% {
+    color: rgb(0, 0, 0);
+  }
+}
