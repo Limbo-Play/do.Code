@@ -22,9 +22,6 @@ const arrToString = reversArr.join('-')
 //check result
 console.log(arrToString)
 */
-
-
-
 //make function
 function madFunction( array, array2 ){
     const combineArr = [...array, ...array2]
@@ -44,3 +41,4 @@ function madFunction( array, array2 ){
 }
 
 madFunction(words, words2)
+

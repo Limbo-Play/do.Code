@@ -1,0 +1,68 @@
+body{
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    background-color: #363A47;
+    height: 400px;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+.helloSize{
+    width: 140px;
+    height: 60px;
+    height: auto;
+    background-color: #03D6A1;
+    text-align: center;
+    border-radius: 15px 50px;
+}
+
+.itsMyHome{
+    width: 300px;
+    background-color: #03D6A1;
+    text-align: center;
+    border-radius: 15px 50px;
+}
+
+.instruct{
+    width: 850px;
+    background-color: #03D6A1;
+    padding-left: 23px;
+    border-radius: 15px 50px;
+}
+.imgSize{
+    width: 500px;
+    height: 400px;
+}
+.imgPos{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.myInst{
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    background-color: #03D6A1;
+    border-radius: 15px 50px;
+}
+.instLogoSize{
+    width: 250px;
+    height: 250px;
+}
+.instLogo img {
+    width: 250px;
+    height: 250px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    }
+  .instLogo img:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    }
