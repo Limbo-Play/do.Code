@@ -1,0 +1,23 @@
+
+const words = ['Car', 'Mango', 'Table', 'Mouse']
+const words2 = ['Hand','Mango','Phone','Mouse']
+
+//combine array to new array
+const combineArr = [...words, ...words2]
+
+//filter array to new array
+const filterUniqWord = (array) => array.filter((x, i, a) => a.indexOf(x) == i)
+const uniqArr = filterUniqWord(combineArr)
+
+
+//revers word and change every element toUpperCase  
+const reversArr = uniqArr.map(s => [...s].reverse().join(''))
+for(let i = 0; i < reversArr.length; i++){
+    reversArr[i] = reversArr[i].toUpperCase();
+}
+
+//changes array to string
+const arrToString = reversArr.join('-')
+
+//check result
+console.log(arrToString)
